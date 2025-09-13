@@ -36,8 +36,6 @@ npm run dev
 
 Abra o endereço indicado no terminal (geralmente `http://localhost:5173`).
 
-> ℹ️ Instruções específicas de configuração (quando necessário) estão no `README.md` de cada pasta.
-
 ## ✅ Funcionalidades Atendidas
 
 - Navbar fixa com logo, contador do carrinho e botão para alternar tema (claro/escuro) com persistência.
@@ -53,3 +51,6 @@ Abra o endereço indicado no terminal (geralmente `http://localhost:5173`).
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white)](https://postcss.org/)
+[![styled-components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com/)
