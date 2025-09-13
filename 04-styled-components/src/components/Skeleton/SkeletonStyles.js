@@ -1,0 +1,16 @@
+import styled, { keyframes } from "styled-components";
+
+const pulse = keyframes`
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+`;
+
+export const SkeletonBox = styled.div`
+  width: 100%;
+  height: ${({ height }) => height || "100%"};
+  background-color: #ddd;
+  border-radius: 8px;
+  animation: ${pulse} 1.5s infinite ease-in-out;
+  user-select: none;
+`;

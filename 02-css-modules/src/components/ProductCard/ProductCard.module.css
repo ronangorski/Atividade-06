@@ -1,0 +1,81 @@
+.productCard {
+  background-color: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  cursor: pointer;
+  min-height: 450px;
+}
+
+.darkMode {
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
+}
+
+.productCard:hover,
+.productCard:focus-within {
+  box-shadow: 0 4px 10px #007bff;
+  transform: translateY(-4px);
+  outline: none;
+}
+
+.productCard:focus-visible {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+.productImage {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  background-color: transparent;
+  border-radius: 8px;
+  flex-shrink: 0;
+  height: 250px;
+}
+
+.productCard>*:not(.productImage) {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productTitle {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2em;
+  height: 2.4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.productPrice {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #007bff;
+}
+
+.productRating {
+  color: #f5a623;
+  font-size: 1.1rem;
+  user-select: none;
+}
+
+.productTag {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  align-self: flex-start;
+  user-select: none;
+}
